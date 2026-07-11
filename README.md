@@ -5,7 +5,7 @@
 ## Add Repository
 
 ```bash
-echo 'deb [trusted=yes] https://enderbk.is-cool.dev stable main' \
+echo 'deb [trusted=yes] https://enderbk.is-cool.dev/anland-repo stable main' \
   >> $PREFIX/etc/apt/sources.list.d/anland.list
 pkg update
 ```
@@ -48,7 +48,7 @@ pkg install plasma-mobile plasma-keyboard plasma-settings
 ## Repo URL
 
 ```
-deb [trusted=yes] https://enderbk.is-cool.dev stable main
+deb [trusted=yes] https://enderbk.is-cool.dev/anland-repo stable main
 ```
 
 ## Info
