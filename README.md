@@ -5,15 +5,20 @@
 ## Add Repository
 
 ```bash
-echo 'deb [trusted=yes] https://raw.githubusercontent.com/enderbk0/anland-repo/main stable main' \
+echo 'deb [trusted=yes] https://enderbk.is-cool.dev stable main' \
   >> $PREFIX/etc/apt/sources.list.d/anland.list
 pkg update
 ```
 
-## Install
+## Install Hyprland
 
 ```bash
 pkg install hyprland
+```
+
+## Install Plasma Mobile
+
+```bash
 pkg install plasma-mobile plasma-keyboard plasma-settings
 ```
 
@@ -21,20 +26,34 @@ pkg install plasma-mobile plasma-keyboard plasma-settings
 
 | Package | Version | Description |
 |---------|---------|-------------|
-| hyprland | 0.55.0 | Dynamic tiling Wayland compositor |
-| libaquamarine | 0.12.1 | Hyprland rendering backend |
-| libhyprutils | 0.13.1 | Hyprland utility library |
-| libhyprlang | 0.6.8 | Hyprland config language |
-| libhyprcursor | 0.1.13 | Cursor management |
-| libhyprgraphics | 0.5.1 | Graphics library |
-| libhyprwire | 0.3.1 | IPC socket library |
-| hyprwayland-scanner | 0.4.6 | Wayland protocol scanner |
-| libinput | 1.27.0 | Input device library |
-| libudev-zero | 1.0.3 | Minimal udev |
-| libxcb-errors | 1.0.1 | XCB error helper |
-| tomlplusplus | 3.4.0 | TOML parser |
-| plasma-mobile | 6.4.0 | KDE Plasma Mobile shell |
-| plasma-keyboard | 6.4.0 | Plasma virtual keyboard |
-| plasma-settings | 6.4.0 | Plasma settings app |
+| `hyprland` | 0.55.0 | Dynamic tiling Wayland compositor |
+| `libaquamarine` | 0.12.1 | Hyprland rendering backend |
+| `libhyprutils` | 0.13.1 | Hyprland utility library |
+| `libhyprlang` | 0.6.8 | Hyprland config language |
+| `libhyprcursor` | 0.1.13 | Cursor management |
+| `libhyprgraphics` | 0.5.1 | Graphics library |
+| `libhyprwire` | 0.3.1 | IPC socket library |
+| `hyprwayland-scanner` | 0.4.6 | Wayland protocol scanner |
+| `libinput` | 1.27.0 | Input device library |
+| `libudev-zero` | 1.0.3 | Minimal udev |
+| `libxcb-errors` | 1.0.1 | XCB error helper |
+| `tomlplusplus` | 3.4.0 | TOML parser (C++17) |
+| `kwin-anland` | 6.7.2 | KWin compositor (Anland patched) |
+| `xwayland` | 24.1.12 | XWayland compatibility layer |
+| `mesa` | 26.2.0 | Mesa graphics libraries |
+| `plasma-mobile` | 6.4.0 | KDE Plasma Mobile shell |
+| `plasma-keyboard` | 6.4.0 | Plasma virtual keyboard |
+| `plasma-settings` | 6.4.0 | Plasma settings app |
 
-Architecture: `aarch64` | Status: Experimental | Maintainer: enderbk0
+## Repo URL
+
+```
+deb [trusted=yes] https://enderbk.is-cool.dev stable main
+```
+
+## Info
+
+- Architecture: `aarch64` (Android ARM64)
+- Status: **Experimental** — startup tested only
+- Maintainer: [enderbk0](https://github.com/enderbk0)
+- Source: [github.com/enderbk0/anland-repo](https://github.com/enderbk0/anland-repo)
