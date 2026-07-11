@@ -1,0 +1,280 @@
+Package: hyprland
+Version: 0.55.0
+Architecture: aarch64
+Maintainer: enderbk0 <enderbk0@users.noreply.github.com>
+Installed-Size: 69993
+Depends: libhyprutils (>= 0.13.1), libhyprlang (>= 0.6.8), libaquamarine (>= 0.12.1), libhyprcursor (>= 0.1.13), libhyprgraphics (>= 0.5.1), libhyprwire (>= 0.3.1), hyprwayland-scanner (>= 0.4.6), libinput, libudev-zero
+Homepage: https://github.com/enderbk0/anland-repo
+Filename: pool/main/hyprland_0.55.0_aarch64.deb
+Size: 49896248
+MD5sum: 7ab2f631fc1b1a964d3fa71567f7d9d8
+SHA256: e0be92e266022a6ec35c28445c697d6a260717a20316e97581e219884adcf733
+Description: Dynamic tiling Wayland compositor (Termux-patched) (experimental, Termux-patched build)
+
+Package: hyprwayland-scanner
+Version: 0.4.6
+Architecture: aarch64
+Maintainer: enderbk0 <enderbk0@users.noreply.github.com>
+Installed-Size: 299
+Homepage: https://github.com/enderbk0/anland-repo
+Filename: pool/main/hyprwayland-scanner_0.4.6_aarch64.deb
+Size: 83972
+MD5sum: 439082319fe2693cec1b8fd53741cad4
+SHA256: f69cea6256c19ea8b49bfcd599847f77f70e58397093bbb5548d8e4e20e15e76
+Description: Wayland protocol scanner for Hyprland (experimental, Termux-patched build)
+
+Package: kwin-anland
+Version: 6.7.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 28972
+Depends: aurorae, breeze, kf6-kauth, kf6-kcmutils, kf6-kcolorscheme, kf6-kconfig, kf6-kcoreaddons, kf6-kcrash, kf6-kdeclarative, kdecoration, kf6-kglobalaccel, kglobalacceld, kf6-kguiaddons, kf6-ki18n, kf6-kidletime, kf6-kirigami, kf6-kitemmodels, kf6-knewstuff, kf6-knotifications, kf6-kpackage, kf6-kservice, kf6-ksvg, kf6-kwidgetsaddons, kf6-kwindowsystem, kf6-kxmlgui, knighttime, kwayland, libc++, libcanberra, libdisplay-info, libdrm, libepoxy, libplasma, libqaccessibilityclient-qt6, libwayland, libx11, libxcb, libxi, libxkbcommon, littlecms, mesa, pipewire, plasma-activities, qt6-qt5compat, qt6-qtbase, qt6-qtdeclarative, qt6-qtsensors, qt6-qtsvg, qt6-qttools, qt6-qtwayland, xcb-util-cursor, xcb-util-keysyms, xcb-util-wm, xwayland
+Homepage: https://invent.kde.org/plasma/kwin
+Filename: pool/main/kwin-anland_6.7.2_aarch64.deb
+Size: 8942084
+MD5sum: 2f57e42b5ba5094d5040a7efca10bb9f
+SHA256: 145abeba14b1dad4a1ebb0b0d4e97b8c1d3925004d5f58f93e6b49a81857b343
+Description: KWin with Anland backend
+
+Package: libaquamarine
+Version: 0.12.1
+Architecture: aarch64
+Maintainer: enderbk0 <enderbk0@users.noreply.github.com>
+Installed-Size: 1899
+Depends: libhyprutils (>= 0.13.1), libinput, libudev-zero
+Homepage: https://github.com/enderbk0/anland-repo
+Filename: pool/main/libaquamarine_0.12.1_aarch64.deb
+Size: 379196
+MD5sum: 808be3661ce18539d1a5881b99dcb1af
+SHA256: 44d490685034a14246f78019244b347ed71bd4fe8268f9eb0859635b0e500799
+Description: Lightweight Linux rendering backend for Hyprland (experimental, Termux-patched build)
+
+Package: libhyprcursor
+Version: 0.1.13
+Architecture: aarch64
+Maintainer: enderbk0 <enderbk0@users.noreply.github.com>
+Installed-Size: 960
+Depends: libhyprutils (>= 0.13.1)
+Homepage: https://github.com/enderbk0/anland-repo
+Filename: pool/main/libhyprcursor_0.1.13_aarch64.deb
+Size: 194336
+MD5sum: 76018121bb87f7415756dbf08c03f133
+SHA256: 0ec54aee0cbd9557888a8962b7c9c590cb0ec1c0166857387ad61ce752f71d4a
+Description: Hyprland cursor management library (experimental, Termux-patched build)
+
+Package: libhyprgraphics
+Version: 0.5.1
+Architecture: aarch64
+Maintainer: enderbk0 <enderbk0@users.noreply.github.com>
+Installed-Size: 288
+Depends: libhyprutils (>= 0.13.1), libhyprcursor (>= 0.1.13)
+Homepage: https://github.com/enderbk0/anland-repo
+Filename: pool/main/libhyprgraphics_0.5.1_aarch64.deb
+Size: 76332
+MD5sum: 2515e1ffe2cd77cf916dbe39b3c70407
+SHA256: f8b849c51f33ee7cba47d8875362ccd7c2e376dbb958337196c7dd5697839a2f
+Description: Hyprland graphics rendering library (experimental, Termux-patched build)
+
+Package: libhyprlang
+Version: 0.6.8
+Architecture: aarch64
+Maintainer: enderbk0 <enderbk0@users.noreply.github.com>
+Installed-Size: 703
+Depends: libhyprutils (>= 0.13.1)
+Homepage: https://github.com/enderbk0/anland-repo
+Filename: pool/main/libhyprlang_0.6.8_aarch64.deb
+Size: 99856
+MD5sum: 947743c974179b01e0eb2d5163c1fc38
+SHA256: 26f0441eaf08f37ec58c7bafd0aa75344fa7d4e2c46a46b384f700607604f4ef
+Description: Hyprland config language parser (experimental, Termux-patched build)
+
+Package: libhyprutils
+Version: 0.13.1
+Architecture: aarch64
+Maintainer: enderbk0 <enderbk0@users.noreply.github.com>
+Installed-Size: 580
+Homepage: https://github.com/enderbk0/anland-repo
+Filename: pool/main/libhyprutils_0.13.1_aarch64.deb
+Size: 139852
+MD5sum: 4c769c0a3e52cb4102e366df2334032f
+SHA256: 216f0cb4af51aaa389389d0b877fcc609de56a9dd5a14773c5e2a42dc19d3c89
+Description: Hypr utility library (experimental, Termux-patched build)
+
+Package: libhyprwire
+Version: 0.3.1
+Architecture: aarch64
+Maintainer: enderbk0 <enderbk0@users.noreply.github.com>
+Installed-Size: 686
+Depends: libhyprutils (>= 0.13.1)
+Homepage: https://github.com/enderbk0/anland-repo
+Filename: pool/main/libhyprwire_0.3.1_aarch64.deb
+Size: 155104
+MD5sum: c823093a47cf6a96864050fe4d015331
+SHA256: 61abe0f0642ae36dfd9e26eb06d13ed16a74fb1913703869bedf0120b21ab25b
+Description: Hyprland IPC socket library (experimental, Termux-patched build)
+
+Package: libinput
+Version: 1.27.0
+Architecture: aarch64
+Maintainer: enderbk0 <enderbk0@users.noreply.github.com>
+Installed-Size: 1613
+Depends: libudev-zero
+Homepage: https://github.com/enderbk0/anland-repo
+Filename: pool/main/libinput_1.27.0_aarch64.deb
+Size: 391044
+MD5sum: f6777a742afd445d5f75f672cce2b399
+SHA256: 831b8c2f419bd84445fb822dec7eb237c64d8b3c70616bbe570ffdf5585313f3
+Description: Input device library (Hyprland patched) (experimental, Termux-patched build)
+
+Package: libudev-zero
+Version: 1.0.3
+Architecture: aarch64
+Maintainer: enderbk0 <enderbk0@users.noreply.github.com>
+Installed-Size: 76
+Homepage: https://github.com/enderbk0/anland-repo
+Filename: pool/main/libudev-zero_1.0.3_aarch64.deb
+Size: 15232
+MD5sum: d2ec232dcd78060c55c7c6975a835f98
+SHA256: e0d0883e5f0026f6e5e59c66d24037e0c8d5f9f25ed28fab277f602e8fcc18e2
+Description: Minimal udev for non-systemd (experimental, Termux-patched build)
+
+Package: libxcb-errors
+Version: 1.0.1
+Architecture: aarch64
+Maintainer: enderbk0 <enderbk0@users.noreply.github.com>
+Installed-Size: 149
+Homepage: https://github.com/enderbk0/anland-repo
+Filename: pool/main/libxcb-errors_1.0.1_aarch64.deb
+Size: 21676
+MD5sum: 1eb8e8b551be873586a44d785f7ad8cc
+SHA256: dbd74a98db20bb06396eba08900fc37de2d16b4c66002b435730e174eb0d2960
+Description: XCB error codes helper library (experimental, Termux-patched build)
+
+Package: mesa-dev
+Version: 26.2.0-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 168
+Depends: libglvnd-dev
+Homepage: https://www.mesa3d.org
+Filename: pool/main/mesa-dev_26.2.0-1_all.deb
+Size: 25348
+MD5sum: b7c19e802ab9c3b2d69982bafc7f1615
+SHA256: abb9f22affad716c481cf180952e0dcbfda530f8933149a01783f70b7369fb9d
+Description: Mesa's OpenGL headers
+
+Package: mesa-opencl-icd-rusticl
+Version: 26.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 22476
+Depends: clang (<< 22), libandroid-shmem, libc++, libclc, libdrm, libllvm (<< 22), zlib, zstd
+Homepage: https://www.mesa3d.org
+Filename: pool/main/mesa-opencl-icd-rusticl_26.2.0-1_aarch64.deb
+Size: 3926012
+MD5sum: a5be7abe6a15ac4be5c7a49f7cf81928
+SHA256: a149a4b8ab56a74be83d767f473bfd298407aeacaef48999b8f29994e20af3a5
+Description: Mesa's Rusticl OpenCL ICD
+
+Package: mesa-vulkan-icd-freedreno
+Version: 26.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14716
+Depends: libandroid-shmem, libc++, libdrm, libx11, libxcb, libxshmfence, libwayland, vulkan-loader-generic, zlib, zstd
+Homepage: https://www.mesa3d.org
+Filename: pool/main/mesa-vulkan-icd-freedreno_26.2.0-1_aarch64.deb
+Size: 1919704
+MD5sum: 018f9138afb6cd36bc61a40c882b9d87
+SHA256: f22d1258f28d71f38ce4e39e67f251565f1f1df57ccb4c046698e6e853aa5aca
+Description: Mesa's Freedreno Vulkan ICD
+
+Package: mesa-vulkan-icd-swrast
+Version: 26.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13948
+Depends: libandroid-shmem, libc++, libdrm, libx11, libxcb, libxshmfence, libwayland, ncurses, vulkan-loader-generic, zlib, zstd
+Homepage: https://www.mesa3d.org
+Filename: pool/main/mesa-vulkan-icd-swrast_26.2.0-1_aarch64.deb
+Size: 1920004
+MD5sum: 748d10cd638a9b1c63f44a08c94272d4
+SHA256: cc1fd2762e91dba4cbd4f56d0f67b556f27af3d62af47a843e5db7a94283eca9
+Description: Mesa's Swrast Vulkan ICD
+
+Package: mesa
+Version: 26.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 22660
+Depends: libandroid-shmem, libc++, libdrm, libglvnd, libllvm (<< 22), libwayland, libx11, libxext, libxfixes, libxshmfence, libxxf86vm, ncurses, vulkan-loader, zlib, zstd
+Homepage: https://www.mesa3d.org
+Filename: pool/main/mesa_26.2.0-1_aarch64.deb
+Size: 4339588
+MD5sum: f18fddea19a81d2f36362e257e95593d
+SHA256: 5adfa7b3000bdce3ff660afb40e069e95508b0ab5c54c29dd9732111a548cfeb
+Description: An open-source implementation of the OpenGL specification
+
+Package: plasma-keyboard
+Version: 6.4.0
+Architecture: aarch64
+Maintainer: enderbk0 <enderbk0@users.noreply.github.com>
+Installed-Size: 13056
+Depends: plasma-mobile (>= 6.4.0)
+Homepage: https://github.com/enderbk0/anland-repo
+Filename: pool/main/plasma-keyboard_6.4.0_aarch64.deb
+Size: 2121860
+MD5sum: 8ca214691e7426dfd26940efa699e9d6
+SHA256: ed601bd6459fdc4f8861be41e9007ba7987c0c6d1288a66d1d9376655e93664f
+Description: KDE plasma-keyboard shell (experimental Termux build) (experimental, Termux-patched build)
+
+Package: plasma-mobile
+Version: 6.4.0
+Architecture: aarch64
+Maintainer: enderbk0 <enderbk0@users.noreply.github.com>
+Installed-Size: 115454
+Homepage: https://github.com/enderbk0/anland-repo
+Filename: pool/main/plasma-mobile_6.4.0_aarch64.deb
+Size: 19721932
+MD5sum: 90ba4b928f903d903e2882c38aad7f8a
+SHA256: 181e674dad29653f58c09aef964049be97426886e0aad0d7aef69a3a43382964
+Description: KDE plasma-mobile shell (experimental Termux build) (experimental, Termux-patched build)
+
+Package: plasma-settings
+Version: 6.4.0
+Architecture: aarch64
+Maintainer: enderbk0 <enderbk0@users.noreply.github.com>
+Installed-Size: 5625
+Depends: plasma-mobile (>= 6.4.0)
+Homepage: https://github.com/enderbk0/anland-repo
+Filename: pool/main/plasma-settings_6.4.0_aarch64.deb
+Size: 1018652
+MD5sum: f10cb21d2db7088932adc58e301044b4
+SHA256: 64fa2f087c9fc2457dd3b99ec513a5cda002fad33e0477ed4026e056147a6edd
+Description: KDE plasma-settings shell (experimental Termux build) (experimental, Termux-patched build)
+
+Package: tomlplusplus
+Version: 3.4.0
+Architecture: aarch64
+Maintainer: enderbk0 <enderbk0@users.noreply.github.com>
+Installed-Size: 1238
+Homepage: https://github.com/enderbk0/anland-repo
+Filename: pool/main/tomlplusplus_3.4.0_aarch64.deb
+Size: 91032
+MD5sum: 06d99b6a8185361161ce989bf338da9b
+SHA256: 8f5b4164faf0d8b8d28bc228ade4129dbe4d578eaf0aaee40f3f8629ef8dd188
+Description: Header-only TOML parser (C++17) (experimental, Termux-patched build)
+
+Package: xwayland
+Version: 24.1.12-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2120
+Depends: libandroid-shmem, libdrm, libepoxy, libpciaccess, libpixman, libwayland, libwayland-protocols, libx11, libxau, libxcvt, libxfont2, libxinerama, libxkbfile, libxshmfence, mesa, opengl, openssl, xkeyboard-config, xorg-protocol-txt, xorg-xkbcomp
+Homepage: https://xorg.freedesktop.org/wiki/
+Filename: pool/main/xwayland_24.1.12-2_aarch64.deb
+Size: 695108
+MD5sum: e2b5aac3f3bf6354a9e5dfd9d21fb9a3
+SHA256: cd7ddcd96bf57bbcb6034babe89ba99afeed6bddd84a835d1a49aedcb951715c
+Description: Wayland X11 server
+
