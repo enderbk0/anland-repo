@@ -2,13 +2,13 @@ Origin: Anland Termux Repo
 Label: Anland
 Suite: stable
 Codename: stable
-Date: Sun, 12 Jul 2026 07:19:30 +0000
+Date: Sun, 12 Jul 2026 07:31:55 +0000
 Architectures: aarch64
 Components: main
 Description: Experimental Hyprland + Plasma Mobile packages for Termux aarch64
 MD5Sum:
- b4aeb51558ba16ad1033fb1f681c70ea 12375 main/binary-aarch64/Packages
- 18d5c4271046ba198c93ee7cba4fd603 3786 main/binary-aarch64/Packages.gz
+ 2a26275b9d58432a6a259302f201c636 12386 main/binary-aarch64/Packages
+ f5fc9e7c5ea035926412f8012788ca8b 3792 main/binary-aarch64/Packages.gz
 SHA256:
- 5408a25148eb44238a5a128652520442d0cc9a619161eb27024c72f31f16e89a 12375 main/binary-aarch64/Packages
- 710020472990b9d33960e256fb0aab0fb689d6cf1f63360b0215f63cd140c978 3786 main/binary-aarch64/Packages.gz
+ c8ec3b19add64b707ca90fdd10ad46aaaf3fc16591bfe8a9de080be93c068ba3 12386 main/binary-aarch64/Packages
+ c25f14be176160a3abf31b8ce499a22c3ef85bc44f7484a880dfe3c4e7f3a9a5 3792 main/binary-aarch64/Packages.gz
