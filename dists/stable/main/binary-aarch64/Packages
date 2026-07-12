@@ -230,40 +230,40 @@ MD5sum: f18fddea19a81d2f36362e257e95593d
 SHA256: 5adfa7b3000bdce3ff660afb40e069e95508b0ab5c54c29dd9732111a548cfeb
 
 Package: plasma-keyboard
-Version: 6.4.0-anland-1
+Version: 6.4.0-anland-2
 Architecture: aarch64
 Maintainer: enderbk0 <enderbk0@users.noreply.github.com>
-Depends: plasma-mobile (>= 6.4.0-anland-1)
+Depends: plasma-mobile (>= 6.4.0-anland-2)
 Description: KDE Plasma Keyboard application (Termux-patched for Anland)
 Homepage: https://github.com/enderbk0/anland-repo
-Filename: pool/main/plasma-keyboard_6.4.0-anland-1_aarch64.deb
-Size: 2126956
-MD5sum: 330bea5188d7e0466d9908e264f0623e
-SHA256: 6425ac13d6ff861189cc1bb386001da2c03011567b1580d8e8a5a6658eabfb35
+Filename: pool/main/plasma-keyboard_6.4.0-anland-2_aarch64.deb
+Size: 2125328
+MD5sum: 08e79de8804d9d31d4eb4ae3aa75a8b3
+SHA256: 2343606c3801b3af322184161582b051fd6369b0dbdcec638694f7eca67379bc
 
 Package: plasma-mobile
-Version: 6.4.0-anland-1
+Version: 6.4.0-anland-2
 Architecture: aarch64
 Maintainer: enderbk0 <enderbk0@users.noreply.github.com>
-Depends: dbus, kwin-anland (>= 6.7.2), plasma-wayland-protocols (>= 1.21.0), qcoro (>= 0.13.0), qt6-qtdeclarative, qt6-qtwayland, kirigami-addons, kf6-kirigami
+Depends: dbus, plasma-workspace, anland, kwin-anland (>= 6.7.2), plasma-wayland-protocols (>= 1.21.0), qcoro (>= 0.13.0), qt6-qtdeclarative, qt6-qtwayland, kirigami-addons, kf6-kirigami
 Description: KDE Plasma Mobile shell (Termux-patched for Anland)
 Homepage: https://github.com/enderbk0/anland-repo
-Filename: pool/main/plasma-mobile_6.4.0-anland-1_aarch64.deb
-Size: 20341816
-MD5sum: 8534e9e0c5a87b0dae28e83ef78a24ad
-SHA256: aeca10f262dec9a28d4c19885d6e2b50f3ef85292f81e58bf695c4ffd989c341
+Filename: pool/main/plasma-mobile_6.4.0-anland-2_aarch64.deb
+Size: 20342544
+MD5sum: 292fcd18953fa7f7d5763768f96bd843
+SHA256: 208f8bd023baca0f1b7d9504e65df6f7fbced3944725349c39c40774d04350aa
 
 Package: plasma-settings
-Version: 6.4.0-anland-1
+Version: 6.4.0-anland-2
 Architecture: aarch64
 Maintainer: enderbk0 <enderbk0@users.noreply.github.com>
-Depends: plasma-mobile (>= 6.4.0-anland-1)
+Depends: plasma-mobile (>= 6.4.0-anland-2)
 Description: KDE Plasma Settings application (Termux-patched for Anland)
 Homepage: https://github.com/enderbk0/anland-repo
-Filename: pool/main/plasma-settings_6.4.0-anland-1_aarch64.deb
-Size: 1060044
-MD5sum: 4b55d810cf7f1e99cf7eb94f7298e665
-SHA256: 75bcc2c3dcd10dd4ffeac3177531cfa392f08131b2c4ad4ab353dd391c425660
+Filename: pool/main/plasma-settings_6.4.0-anland-2_aarch64.deb
+Size: 1059528
+MD5sum: f250f7be688f80fb4e02defe7953aa3e
+SHA256: da89627475ade8a1b6a416bf97fcaf9439ba1f1d01ed8d6e07ad2b15cc9500b4
 
 Package: tomlplusplus
 Architecture: aarch64
