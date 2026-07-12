@@ -249,9 +249,9 @@ Depends: plasma-mobile (>= 6.4.0-anland-3)
 Description: KDE Plasma Keyboard application (Termux-patched for Anland)
 Homepage: https://github.com/enderbk0/anland-repo
 Filename: pool/main/plasma-keyboard_6.4.0-anland-3_aarch64.deb
-Size: 2125200
-MD5sum: 3f6647ba47842a6e31fcf05656cea2ff
-SHA256: 1442c70d0f49945107247313a23061fa03fd694111e65145dc94a5649b941637
+Size: 2126400
+MD5sum: 0d37b91ab4ef0eee06017a47bd58c572
+SHA256: d13546ea480f9f8de0f70400f7cacca741d78078556c45a293ec7a8174f6f5ea
 
 Package: plasma-mobile
 Version: 6.4.0-anland-3
@@ -261,9 +261,9 @@ Depends: dbus, plasma-workspace, plasma-pa, anland, kwin-anland (>= 6.7.2), plas
 Description: KDE Plasma Mobile shell (Termux-patched for Anland)
 Homepage: https://github.com/enderbk0/anland-repo
 Filename: pool/main/plasma-mobile_6.4.0-anland-3_aarch64.deb
-Size: 20340736
-MD5sum: 8636aee81bc617c71a62a38bcb761dc7
-SHA256: c968ec8b2ffe4f89853ccd44fb531a18913f229ebbe3f0e4f33318836c006850
+Size: 20341684
+MD5sum: e944f1bd25b9cecf66e3871eda1f7c10
+SHA256: 407c64442b0f4306159a52f09f2f29227a1024b2d0fa197ce2397a14f99e4a36
 
 Package: plasma-nano
 Version: 6.4.0-anland-3
@@ -273,9 +273,9 @@ Depends: libplasma, qt6-qtdeclarative
 Description: KDE Plasma Nano minimal shell (Termux-patched for Anland)
 Homepage: https://github.com/enderbk0/anland-repo
 Filename: pool/main/plasma-nano_6.4.0-anland-3_aarch64.deb
-Size: 58252
-MD5sum: c1b352964dc3244dbdf9b676d622c425
-SHA256: 2d65c794422ecf00e5a8f30575b28fa4d0de948da1fadbbd16152dda07d3ba4a
+Size: 58300
+MD5sum: ac3f73f1dcb12f493ce8fccbdb0625ca
+SHA256: f6ef3d7330f1ac32212bfcb633d0be90c7cad4ea7b78a9d897a14733963c29c7
 
 Package: plasma-settings
 Version: 6.4.0-anland-3
@@ -285,9 +285,9 @@ Depends: plasma-mobile (>= 6.4.0-anland-3)
 Description: KDE Plasma Settings application (Termux-patched for Anland)
 Homepage: https://github.com/enderbk0/anland-repo
 Filename: pool/main/plasma-settings_6.4.0-anland-3_aarch64.deb
-Size: 1059960
-MD5sum: c36437a778dcf0cd8a6983b8e6286e65
-SHA256: 68637d40b12058434300db00a7a2ff8a118f02b1a077815e88d65d7ccc0efdb5
+Size: 1059456
+MD5sum: 9ca134e256617fce0baabb87df066df7
+SHA256: 08766139deebbf3bf32fe49af1b0063dd28f1fdec6befa90e2f56fc70ca9ed7b
 
 Package: tomlplusplus
 Architecture: aarch64
