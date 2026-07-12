@@ -50,10 +50,10 @@ pkg install plasma-mobile plasma-keyboard plasma-settings
 | `kwin-anland` | 6.7.2 | KWin compositor (Anland patched) |
 | `xwayland` | 24.1.12 | XWayland compatibility layer |
 | `mesa` | 26.2.0 | Mesa graphics libraries |
-| `plasma-mobile` | 6.4.0-anland-4 | KDE Plasma Mobile shell |
-| `plasma-nano` | 6.4.0-anland-4 | KDE Plasma Nano minimal shell (provides nanoshell module) |
-| `plasma-keyboard` | 6.4.0-anland-4 | Plasma virtual keyboard |
-| `plasma-settings` | 6.4.0-anland-4 | Plasma settings app |
+| `plasma-mobile` | 6.4.0-anland-5 | KDE Plasma Mobile shell |
+| `plasma-nano` | 6.4.0-anland-5 | KDE Plasma Nano minimal shell (provides nanoshell module) |
+| `plasma-keyboard` | 6.4.0-anland-5 | Plasma virtual keyboard |
+| `plasma-settings` | 6.4.0-anland-5 | Plasma settings app |
 
 ## Repo URL
 
