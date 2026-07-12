@@ -46,10 +46,12 @@ pkg install plasma-mobile plasma-keyboard plasma-settings
 | `libudev-zero` | 1.0.3 | Minimal udev |
 | `libxcb-errors` | 1.0.1 | XCB error helper |
 | `tomlplusplus` | 3.4.0 | TOML parser (C++17) |
+| `anland` | 5.11.0 | Anland display daemon for Termux |
 | `kwin-anland` | 6.7.2 | KWin compositor (Anland patched) |
 | `xwayland` | 24.1.12 | XWayland compatibility layer |
 | `mesa` | 26.2.0 | Mesa graphics libraries |
 | `plasma-mobile` | 6.4.0-anland-3 | KDE Plasma Mobile shell |
+| `plasma-nano` | 6.4.0-anland-3 | KDE Plasma Nano minimal shell (provides nanoshell module) |
 | `plasma-keyboard` | 6.4.0-anland-3 | Plasma virtual keyboard |
 | `plasma-settings` | 6.4.0-anland-3 | Plasma settings app |
 
