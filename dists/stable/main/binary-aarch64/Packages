@@ -1,3 +1,15 @@
+Package: anland
+Architecture: aarch64
+Installed-Size: 72
+Maintainer: @lfdevs
+Version: 5.11.0
+Homepage: https://github.com/lfdevs/anland-termux
+Description: Anland display daemon for Termux
+Filename: pool/main/anland_5.11.0_aarch64.deb
+Size: 6796
+MD5sum: 2f152a2da961bd13bb187df6dad94d71
+SHA256: 1325db43f2f5b838e53de37bd6c2fed1b457c9870a614757a31504f498053c67
+
 Package: hyprland
 Architecture: aarch64
 Installed-Size: 69993
