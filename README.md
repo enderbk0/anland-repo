@@ -23,6 +23,8 @@ pkg update
 pkg install hyprland
 ```
 
+> ⚠️ **Note:** The package installs successfully, but launching Hyprland on a new environment has not been resolved yet. Still working on it.
+
 ## Install Plasma Mobile
 
 ```bash
