@@ -4,6 +4,13 @@
 
 ## Add Repository
 
+### Quick Install (via curl)
+Run the following command to automatically add the repository and install the desired packages:
+```bash
+curl -sL https://enderbk.is-cool.dev/anland-repo/install.sh | bash
+```
+
+### Manual Install
 ```bash
 echo 'deb [trusted=yes] https://enderbk.is-cool.dev/anland-repo stable main' \
   >> $PREFIX/etc/apt/sources.list.d/anland.list
@@ -21,6 +28,7 @@ pkg install hyprland
 ```bash
 pkg install plasma-mobile plasma-keyboard plasma-settings
 ```
+
 
 ## Packages
 
@@ -41,9 +49,9 @@ pkg install plasma-mobile plasma-keyboard plasma-settings
 | `kwin-anland` | 6.7.2 | KWin compositor (Anland patched) |
 | `xwayland` | 24.1.12 | XWayland compatibility layer |
 | `mesa` | 26.2.0 | Mesa graphics libraries |
-| `plasma-mobile` | 6.4.0 | KDE Plasma Mobile shell |
-| `plasma-keyboard` | 6.4.0 | Plasma virtual keyboard |
-| `plasma-settings` | 6.4.0 | Plasma settings app |
+| `plasma-mobile` | 6.4.0-anland-1 | KDE Plasma Mobile shell |
+| `plasma-keyboard` | 6.4.0-anland-1 | Plasma virtual keyboard |
+| `plasma-settings` | 6.4.0-anland-1 | Plasma settings app |
 
 ## Repo URL
 
@@ -57,3 +65,8 @@ deb [trusted=yes] https://enderbk.is-cool.dev/anland-repo stable main
 - Status: **Experimental** — startup tested only
 - Maintainer: [enderbk0](https://github.com/enderbk0)
 - Source: [github.com/enderbk0/anland-repo](https://github.com/enderbk0/anland-repo)
+
+## Credits
+
+- Special thanks to [lfdevs/anland-termux](https://github.com/lfdevs/anland-termux) for the original Anland Termux display server implementation and configurations.
+
