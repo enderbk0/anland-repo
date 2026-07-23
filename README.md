@@ -1,6 +1,6 @@
 # Anland Termux APT Repository
 
-> ⚠️ **EXPERIMENTAL** — Patched builds, startup tested only. Use at your own risk.
+> ⚠️ **EXPERIMENTAL** — Patched builds, startup untested. Use at your own risk.
 
 ## Add Repository
 
